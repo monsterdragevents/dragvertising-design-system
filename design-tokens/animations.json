@@ -1,0 +1,168 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "animation": {
+    "duration": {
+      "instant": {
+        "$type": "duration",
+        "$value": "0ms",
+        "$description": "No animation"
+      },
+      "fast": {
+        "$type": "duration",
+        "$value": "150ms",
+        "$description": "Fast animations - hover states"
+      },
+      "normal": {
+        "$type": "duration",
+        "$value": "200ms",
+        "$description": "Normal animation speed - default"
+      },
+      "moderate": {
+        "$type": "duration",
+        "$value": "300ms",
+        "$description": "Moderate speed - dropdowns, tooltips"
+      },
+      "slow": {
+        "$type": "duration",
+        "$value": "500ms",
+        "$description": "Slow animations - modals, sheets"
+      },
+      "slower": {
+        "$type": "duration",
+        "$value": "600ms",
+        "$description": "Slower animations - slides"
+      },
+      "slowest": {
+        "$type": "duration",
+        "$value": "1000ms",
+        "$description": "Slowest animations - page transitions"
+      }
+    },
+    "easing": {
+      "linear": {
+        "$type": "cubicBezier",
+        "$value": [0, 0, 1, 1],
+        "$description": "Linear easing"
+      },
+      "ease-in": {
+        "$type": "cubicBezier",
+        "$value": [0.4, 0, 1, 1],
+        "$description": "Ease in - accelerate"
+      },
+      "ease-out": {
+        "$type": "cubicBezier",
+        "$value": [0, 0, 0.2, 1],
+        "$description": "Ease out - decelerate (default)"
+      },
+      "ease-in-out": {
+        "$type": "cubicBezier",
+        "$value": [0.4, 0, 0.2, 1],
+        "$description": "Ease in and out - smooth"
+      },
+      "spring": {
+        "$type": "cubicBezier",
+        "$value": [0.68, -0.55, 0.265, 1.55],
+        "$description": "Spring effect - bouncy"
+      }
+    },
+    "keyframes": {
+      "accordion-down": {
+        "$type": "other",
+        "$value": {
+          "from": { "height": "0" },
+          "to": { "height": "var(--radix-accordion-content-height)" }
+        },
+        "$description": "Accordion open animation"
+      },
+      "accordion-up": {
+        "$type": "other",
+        "$value": {
+          "from": { "height": "var(--radix-accordion-content-height)" },
+          "to": { "height": "0" }
+        },
+        "$description": "Accordion close animation"
+      },
+      "fade-in": {
+        "$type": "other",
+        "$value": {
+          "0%": { "opacity": "0", "transform": "translateY(10px)" },
+          "100%": { "opacity": "1", "transform": "translateY(0)" }
+        },
+        "$description": "Fade in from bottom"
+      },
+      "slide-up": {
+        "$type": "other",
+        "$value": {
+          "0%": { "opacity": "0", "transform": "translateY(20px)" },
+          "100%": { "opacity": "1", "transform": "translateY(0)" }
+        },
+        "$description": "Slide up with fade"
+      },
+      "glow-pulse": {
+        "$type": "other",
+        "$value": {
+          "0%, 100%": { "boxShadow": "0 0 20px hsl(var(--primary) / 0.3)" },
+          "50%": { "boxShadow": "0 0 40px hsl(var(--primary) / 0.6)" }
+        },
+        "$description": "Pulsing glow effect"
+      },
+      "gradient": {
+        "$type": "other",
+        "$value": {
+          "0%, 100%": { "backgroundPosition": "0% 50%" },
+          "50%": { "backgroundPosition": "100% 50%" }
+        },
+        "$description": "Animated gradient"
+      },
+      "shimmer": {
+        "$type": "other",
+        "$value": {
+          "0%": { "backgroundPosition": "-200% center" },
+          "100%": { "backgroundPosition": "200% center" }
+        },
+        "$description": "Shimmer effect for loading states"
+      },
+      "float": {
+        "$type": "other",
+        "$value": {
+          "0%, 100%": { "transform": "translateY(0)" },
+          "50%": { "transform": "translateY(-10px)" }
+        },
+        "$description": "Floating animation"
+      }
+    },
+    "presets": {
+      "fade-in": {
+        "$type": "other",
+        "$value": "fade-in 0.5s ease-out",
+        "$description": "Fade in animation preset"
+      },
+      "slide-up": {
+        "$type": "other",
+        "$value": "slide-up 0.6s ease-out",
+        "$description": "Slide up animation preset"
+      },
+      "glow-pulse": {
+        "$type": "other",
+        "$value": "glow-pulse 2s ease-in-out infinite",
+        "$description": "Glow pulse animation preset"
+      },
+      "gradient": {
+        "$type": "other",
+        "$value": "gradient 8s ease infinite",
+        "$description": "Gradient animation preset"
+      },
+      "shimmer": {
+        "$type": "other",
+        "$value": "shimmer 3s ease-in-out infinite",
+        "$description": "Shimmer animation preset"
+      },
+      "float": {
+        "$type": "other",
+        "$value": "float 3s ease-in-out infinite",
+        "$description": "Float animation preset"
+      }
+    }
+  }
+}
+

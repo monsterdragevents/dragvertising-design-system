@@ -1,0 +1,128 @@
+{
+  "$schema": "./figma-plugin-schema.json",
+  "name": "Dragvertising Design System Sync",
+  "version": "1.0.0",
+  "description": "Syncs design tokens and components between Figma and code",
+  "config": {
+    "designSystemFile": {
+      "fileKey": "FIGMA_FILE_KEY_HERE",
+      "description": "Main design system file key - update with your Figma file key"
+    },
+    "tokenSync": {
+      "enabled": true,
+      "autoSync": false,
+      "syncInterval": 3600000,
+      "description": "Sync every hour when auto-sync is enabled"
+    },
+    "componentMapping": {
+      "enabled": true,
+      "mappingFile": "./component-mapping.json",
+      "description": "Maps Figma components to React components"
+    },
+    "exportSettings": {
+      "colors": {
+        "format": "hsl",
+        "outputPath": "../design-tokens/colors.json"
+      },
+      "typography": {
+        "outputPath": "../design-tokens/typography.json"
+      },
+      "spacing": {
+        "outputPath": "../design-tokens/spacing.json"
+      },
+      "shadows": {
+        "outputPath": "../design-tokens/shadows.json"
+      },
+      "borders": {
+        "outputPath": "../design-tokens/borders.json"
+      },
+      "animations": {
+        "outputPath": "../design-tokens/animations.json"
+      }
+    },
+    "codeGeneration": {
+      "framework": "react",
+      "styling": "tailwind",
+      "typescript": true,
+      "componentLibrary": "shadcn/ui",
+      "outputDirectory": "../../src/ui/primitives"
+    },
+    "figmaVariables": {
+      "syncToCode": true,
+      "collections": [
+        {
+          "name": "Colors",
+          "mode": "light",
+          "outputPath": "../tokens/css/colors-light.css"
+        },
+        {
+          "name": "Colors",
+          "mode": "dark",
+          "outputPath": "../tokens/css/colors-dark.css"
+        },
+        {
+          "name": "Spacing",
+          "outputPath": "../tokens/css/spacing.css"
+        },
+        {
+          "name": "Typography",
+          "outputPath": "../tokens/css/typography.css"
+        }
+      ]
+    }
+  },
+  "workflow": {
+    "steps": [
+      {
+        "name": "Extract Tokens",
+        "action": "extract-design-tokens",
+        "source": "figma",
+        "target": "../design-tokens/"
+      },
+      {
+        "name": "Generate CSS Variables",
+        "action": "generate-css",
+        "source": "../design-tokens/",
+        "target": "../tokens/css/"
+      },
+      {
+        "name": "Update Tailwind Config",
+        "action": "generate-tailwind",
+        "source": "../design-tokens/",
+        "target": "../tokens/tailwind/config-extension.js"
+      },
+      {
+        "name": "Generate TypeScript Types",
+        "action": "generate-types",
+        "source": "../design-tokens/",
+        "target": "../tokens/js/tokens.ts"
+      },
+      {
+        "name": "Validate Components",
+        "action": "validate-components",
+        "source": "figma",
+        "target": "../../src/ui/primitives/"
+      }
+    ]
+  },
+  "plugins": {
+    "recommended": [
+      {
+        "name": "Figma Tokens",
+        "id": "843461159747178978",
+        "description": "Design token management in Figma"
+      },
+      {
+        "name": "Variables Import/Export",
+        "id": "1256972111705530093",
+        "description": "Import/export Figma variables"
+      },
+      {
+        "name": "Inspect",
+        "id": "760445567896379412",
+        "description": "Code generation and inspection"
+      }
+    ]
+  }
+}
+

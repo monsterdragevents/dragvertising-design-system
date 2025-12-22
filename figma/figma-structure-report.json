@@ -1,0 +1,1473 @@
+{
+  "timestamp": "2025-12-03T14:04:34.156Z",
+  "figmaFile": {
+    "name": "Dragvertising App",
+    "version": "2293331954197065353",
+    "lastModified": "2025-12-03T14:03:08Z",
+    "url": "https://figma.com/file/KFTuue8HhKSz8og1Q5qukp"
+  },
+  "summary": {
+    "pages": 3,
+    "components": 1026,
+    "styles": 231,
+    "variables": 0
+  },
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1",
+      "type": "CANVAS",
+      "frames": [
+        {
+          "id": "54:1811",
+          "name": "http://localhost:8080/ - 27/10/2025, 12:10:11 GMT-4 (Components)",
+          "type": "SECTION"
+        },
+        {
+          "id": "54:2832",
+          "name": "http://localhost:8080/ - 27/10/2025, 12:10:11 GMT-4",
+          "type": "SECTION"
+        },
+        {
+          "id": "114:2326",
+          "name": "http://localhost:8080/features - 10/11/2025, 21:23:52 GMT-5 (Components)",
+          "type": "SECTION"
+        },
+        {
+          "id": "114:3402",
+          "name": "http://localhost:8080/features - 10/11/2025, 21:23:52 GMT-5",
+          "type": "SECTION"
+        },
+        {
+          "id": "114:4996",
+          "name": "http://localhost:8080/features - 10/11/2025, 21:24:29 GMT-5 (Components)",
+          "type": "SECTION"
+        },
+        {
+          "id": "117:5422",
+          "name": "http://localhost:8080/design - 03/12/2025, 8:21:52 GMT-5 (Components)",
+          "type": "SECTION"
+        },
+        {
+          "id": "117:6993",
+          "name": "http://localhost:8080/design - 03/12/2025, 8:21:52 GMT-5",
+          "type": "SECTION"
+        }
+      ]
+    },
+    {
+      "id": "14:2",
+      "name": "Page 2",
+      "type": "CANVAS",
+      "frames": []
+    },
+    {
+      "id": "14:3",
+      "name": "Page 3",
+      "type": "CANVAS",
+      "frames": []
+    }
+  ],
+  "components": [],
+  "styles": [
+    {
+      "key": "27667f9b61fcdf281f0c065fe07fbd16119fbf0a",
+      "name": "localhost/Heliotrope",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "6c8d531daa27b3697da21c084a17da9b194f8136",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "3ee513900c0db1e457ba3e865472a89e3e5f201a",
+      "name": "localhost/Bleached Cedar",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "407c26b87e798280c1a65232316d7b98cac81d5f",
+      "name": "localhost/Athens Gray",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "59108c85770e6cc6a6461c3ce9019037900abdd2",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "f5047e88b83cb946f73d15357621e8e873d88215",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "44296252f5c508eb41c8944128fffb655a23339c",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "5961dd1752269b520a3833572aeccd1c6c9f6c41",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "14e3499cc23e0d6d194b2d408cc8a88bc12a7cf2",
+      "name": "localhost/Amethyst Smoke",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "277ab0f9f44f49fa6a512f283fd1a2b6176bf458",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "0525c2c115c86dc6a77d0988e18e4f104b4d48ba",
+      "name": "localhost/White",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "773a73b1cc0632acf37fe946fbccc58677230f30",
+      "name": "localhost/Mountain Meadow",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "e12ab5e7d356b9a56b60a678fe06a61ec1d514c0",
+      "name": "localhost/Electric Violet",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "4c69dc6409204e9eec939d789807edca2635d9d2",
+      "name": "localhost/Christine",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "8af3d68e07a3c986680933dd871f055a3bcfbd5d",
+      "name": "localhost/Heliotrope",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "a6d951b5cb8030d1ee4a26ca1ab95191923de83a",
+      "name": "localhost/Persian Pink",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "6c0b517157bcc9098095a0d7eeba64d520f3d0ce",
+      "name": "localhost/Neon Carrot",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "a9d729622ca3e35318d1385a7de8cf85ed97574c",
+      "name": "localhost/Corn",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "9070a1daff78a7cd04382eef42e3259685ee81ff",
+      "name": "localhost/Shamrock",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "ae7fa5af83a02b61dd136a73120f6e487053ac0c",
+      "name": "localhost/Blackcurrant",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "24e2bf8804f53f3ad0462e9a7009b8872950d0df",
+      "name": "localhost/Heliotrope 90%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "7dd05904e85e002cbc21b5e6788c84654d007c5b",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "8f2ad07f3bec455ad61119829c55201e3ba985f9",
+      "name": "localhost/Inter/Semi Bold upper",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "bbea6b7d60420bd9d824951962d8bf262422b4e8",
+      "name": "localhost/Heliotrope 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "d2e7dd6d33aad734595b482fb635ee8cfbbb0dd3",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "4d6110edd46570a20f7e00ccafa733686e2a19c9",
+      "name": "localhost/Inter/Semi Bold upper",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "40ee19ee0bc399d03b5a179d561f849e94a9aabb",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "acfbd29defb1068da91733836f25ed7820de0d95",
+      "name": "localhost/Ecstasy 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "f3297d58d0a841e7ef819e4e8ee6c996e06be281",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "bc64b4c08a41c956987f90df4b0afcc88c45c13f",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "b381accbbd9cac2464d0d5bc33eefa4e5155099b",
+      "name": "localhost/Semantic/Textarea",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "5097621cc8df43e1e1b6a767b0f3ff2697045ff4",
+      "name": "localhost/Heliotrope 50%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "684347b2f645d9cb43b16bb017dda8eb6e6ba1d5",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "aac35143add57736fa67a2de5c6d0d8004eb81cd",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "0019a3004e307f4121a8d51ad53f70aae23351b0",
+      "name": "localhost/Ecstasy 50%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "611ee6c9c2b47bd2a100f014926edd03c1bec058",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "4d90b26615163ba153a04d362cd3ccc22d556f63",
+      "name": "localhost/Cinder",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "0d74c0a82987c844568fc982d3e936518693cb00",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "febb35f33832ef4bb3ffdbe190cb8d20df8f81b8",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7e9b0b5ca2030c613f549faa3e6d12a79d859952",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "80a0de9fdfb1d90fd644eb48c6a6ca6531b81fcd",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "91a627356471f5f0e838e4a94946aa1b4bbc7765",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "a67ccbefbe201080c3dbe390d6c15e56ff0b3783",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7b927828d85a8110f027f22806549550afa1f004",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "162bd6c936c0e746b52abae67d96cb031e3e6f13",
+      "name": "localhost/Heliotrope 10%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "db80d47a151389a2dca531e6d0efca35c637d332",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7dff2083ed8d23ddb1ddd730c31b7fe4f17d0109",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "23b6df93a1debc988985cb02afcf69a1d4cb79f0",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "249a2fd8b8ffbe7c96ac2e8927c41088ca4c95af",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "8bc840ee5ec0b5da975ef11ddcd75df590e53472",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "055db0997b82f7e769b5b4680bd3d5853ac27774",
+      "name": "localhost/Inter/Semi Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "e23c8173c2852923f48b9e7779d4f59e4c31841a",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "1da52ac8544412f32b9d72c9be6a76623934930e",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "505c65245a6f713a3ce0dfbf23823850e779cdcb",
+      "name": "localhost/Inter/Semi Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d59b4392a6fa3a09384cefbb3965c539caa12488",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d888da2ea63ffa86bb9a64ed4d1f64744d7c5ad4",
+      "name": "localhost/Inter/Semi Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "be495c507608c98d40a9f88d2be92d5098067fbb",
+      "name": "localhost/Ecstasy 10%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "290a1776111ba5c597f332cf0ee41c1020489875",
+      "name": "localhost/Cinder 60%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "bf2b45751b6a2f140bd5a80f57a1a5f6acc93123",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "0a7469ac82046b9acee9cd75747d19cc92732cbf",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "254c3e4e141bf13ae521d0bb1df879ff7a7c0f92",
+      "name": "localhost/Bleached Cedar 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "88da27c1281f53b1505b2aa86bae97e253048308",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "6fc4eac33868608982cac53a234b72d4699aedaf",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "e769447eb8db866a1b491148e302b6cf01b1ad53",
+      "name": "localhost/Semantic/Heading 1",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "1eec6e5af5d71bca3cdc5d21fa631cebc2045d52",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "860bc3c10b61b566d9fae3408f535577e0656f02",
+      "name": "localhost/Athens Gray 90%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "a8a2f04182d71eb35bef17082eb4f428b2e92ef0",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "75be8913f18dbc3e04b57c36ce17fa8ada3a083e",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "772d63884cb18b3a790cd3dd6a080e9c5c4e9769",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ce5712fe50a496bfa119161aecc92255e2f8b211",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "9c91821a32cfa12ab431081ef7a2fc05fba551ec",
+      "name": "localhost/Inter/Italic",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d858d6ccabb1cd938a2ee8af9821cbb64deeb783",
+      "name": "localhost/Inter/Italic",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d0d59c420f2fd0cfb7654ac04c84e65b8296edde",
+      "name": "localhost/French Rose 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "b588f466cc0da42f1b31ab207b24dafd2226848a",
+      "name": "localhost/Heliotrope 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "bea2d1305761790c91d274e515d71a5460167da2",
+      "name": "localhost/Ecstasy 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "800e44d9af5c3c6be3a82b3fdcf208ca934e849c",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "8290cd4fe615ba1f61788cc0a81c168952ee3464",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "67cdc2c32b2b83b4965a12ad926c1628d1fc6705",
+      "name": "localhost/Mountain Meadow 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "ec4477f8def7db79cde1213c6847e21c51341825",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "9034e9d190eb94a5a93aaf67a3bb1d39ede9cca8",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "1bb48e999ac7f734011833beed413443094e0de3",
+      "name": "localhost/Amethyst Smoke 70%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "38beb79f3cba1e83348f2dc5d6d15f8f21596ece",
+      "name": "localhost/Bleached Cedar",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "6b657d3bb3bf3c44932d703beee16ca3219c1bee",
+      "name": "localhost/Cod Gray Cinder",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "7afc4e8bfed2b4c9268009242a255f184dd22291",
+      "name": "localhost/Blue Stone",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "5f8e66b6acbf6fbfbd354ef01c1b82d3bd00ed60",
+      "name": "localhost/Robin's Egg Blue",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "9019eb272a679f3463b57381a5a994fe36a1454c",
+      "name": "localhost/Pacific Blue",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "1567ba4654877ce877441a8a057ff779b4d3c80b",
+      "name": "localhost/Blue Lagoon",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "3c0ecc98bdc5ca4adcf215e7b09e871b69161f5f",
+      "name": "localhost/Black",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "c124d4ee83d2b57bfe81d5794519e9bfdf409631",
+      "name": "localhost/Japanese Laurel",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "4f40d0c8d845c269f911c6a009f2d096fd19fae7",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "88196d3ea5045e2430f13c2b3f3fa0079d2da330",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "caf0e11c4358ba5949d4ca6b702d4f441f0946f8",
+      "name": "localhost/Corn 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "f1bc0de0ba772b1831bf5ad79a8a902dc481409c",
+      "name": "localhost/Dodger Blue 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "31c3c83f081285b367c2d623dd6c799b66a13a0b",
+      "name": "localhost/SF Pro/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "268df5d5bf878d90aec53e7346e38f9de211ec76",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d68efa70bb0b958c6e20296017a68f9f791c168a",
+      "name": "localhost/Semantic/Item",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "8b7004b0c5fcda1ef0f141d24cb66d78afe67c73",
+      "name": "localhost/French Rose 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "9b73ea8b8d6bd87518b07ea56f0f376c8af95a81",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7dc8039b032bab196aaef610e01477e59d1c84f6",
+      "name": "localhost/Persian Pink 10%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "85cb050a99e1c17c907bfc0f735a1fd644d7dd82",
+      "name": "localhost/Persian Pink 50%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "bb54b18ec61e381a23dddc5b5d905221f4a7ef2b",
+      "name": "localhost/SF Pro/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "f66b6743a534d97b1f6964264308bab0b6f1fbed",
+      "name": "localhost/SF Pro/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "59240a2df3c778049d988370cfb52fc209f3f30e",
+      "name": "localhost/SF Pro/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "9a2e3a8ed1ee36460ef5f3e0f0fcd9ec53c6cf05",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "aae3b6b5922d0d85c537896187e51af80e075f97",
+      "name": "localhost/SF Pro/Semibold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7b43ea4f1539c2e22c33bfee24d96486e78bc0ca",
+      "name": "localhost/French Rose 10%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "35261435ada32bc8b1cc0991dad79f005699a19e",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "40e28f7deed52cc328da9b49458cd58da61690af",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "1d9698d6ab7def87cc6fba9986976d211d0956a8",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "63a7c6901612fe7da6afda0ce9bc78cf89dbad47",
+      "name": "localhost/Lavender Pink",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "7752cf13276ef258a467293544ad9078bcdc8e53",
+      "name": "localhost/Heliotrope 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "a94b130cffbd6046bdae98abf7d4f76d6321dae7",
+      "name": "localhost/Semantic/Heading 1",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "0532347e1ec4dee346633fd8d9d1d82e554d5efd",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "e4699b22cabf3e108dab437ba86ada53dd98f9d9",
+      "name": "localhost/Athens Gray 95%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "b4f9ad8758036059f410c4fa699bc76d57715c0a",
+      "name": "localhost/White 0.2%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "4b965e619c2bb4f6cb07f2c9ddf690862c90f776",
+      "name": "localhost/Heliotrope",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "e038b42c00ea172dc33e4cf819201776c793141b",
+      "name": "localhost/Rose",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "65a2619af1914a3146e10384baa72dabf01aee42",
+      "name": "localhost/Ecstasy",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "dd6f4a584319739b8b8bf2ba57e52d5cd34681cc",
+      "name": "localhost/Chatelle",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "ad7343e845fed2b268b894e7dbfeed1d335f353c",
+      "name": "localhost/White 80%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "9514759251999030b6e2e0c8d3577e690c8844c9",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "6e6f1557ad518e41db70634f01eadb33088d6015",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "6bcd108b90b18d6f008a6da4626cb0d79cd322b1",
+      "name": "localhost/SF Pro/Semibold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "0782cfd3ae4f20bf19bb6ab0a06482f1e84abe0d",
+      "name": "localhost/Persian Pink 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "4fee2c1cdece498e027833a5c3c1fab4aa39783e",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "6ec2b75ee18ecb16ed87db3902eb7d7802f01857",
+      "name": "localhost/Neon Carrot 30%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "01c177b210f3a5bb21610f328d5d30561bc50fa4",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "5702047af96245edd72c09925d5afad36d7dbbd1",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "3ee7aeb3f3bd35d97d8bd243898653116ad3ff08",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "f82747bae9fadb5665711e8ed018b1d04c7eb955",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "10f64e51564a43152e5acb9b869617840fb7f2b4",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ba7cf227e59332fdf5af25ec6baa880af75e9bb3",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "6c9691066fe8f62c434920b7d915960f9eff2ab7",
+      "name": "localhost/SF Pro/Semibold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "217a23cd5ad5401fab21c7ce22bb2175756126f0",
+      "name": "localhost/Black 0%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "af77f08da8c99e50e8464379964862620c224d61",
+      "name": "localhost/SF Pro/Semibold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "c06a2689ce206feba67a100e8529bdf1369718f8",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "333e792c2f4c7e5abb7e08310680f2c77681e744",
+      "name": "localhost/Blackcurrant 50%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "1e4967faa0f47909f67aa0082d5af5ca9f611871",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7249591d96c268c31fe447c976efd0e88ab471f5",
+      "name": "localhost/White 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "06fa94985393e124c0fb0b10956e6165da972ece",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "51c25d29a8b47727ba16885b8982a7692d841873",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "39825c6d1f86605423f120f4aeba0fd4b79cdaf4",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "855a8640cb8db23aaa94e4090995c0cd996add4b",
+      "name": "localhost/Rose 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "c1ff10c47f263203f4804a9914d86d827c61824b",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "2a3fdebdcf3471c5ff47d3f2f2f90b2b46bd7c9a",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "f815d14fb113916e72722d7a85513f315f63298a",
+      "name": "localhost/SF Pro/Semibold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "8e994c225a477127ff71c448582393da6583771f",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "dd88c1de5fc3c83ac3818baf6912fb29747199f1",
+      "name": "localhost/Semantic/Heading 1",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "a8eadbd3dc5d6d479685f64846a74181c19965e8",
+      "name": "localhost/SF Pro/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "07bf6429f2757d560cb4d032ad6503b94516c70f",
+      "name": "localhost/SF Pro/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "1708667106af5affac32ddc2f5bef84d7534e42e",
+      "name": "localhost/SF Pro/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "fcf5e32e4a060ad46bf10265ba5749aa9a851b52",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d172f0d5c58c240b76cb99a9c5c1fbc75ffa3682",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "fa297e0548034425cd74de0bfb79fb37deb49f23",
+      "name": "localhost/Rose 10%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "cf612dd1b985ff4000ba866356bf45b0abc322ce",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "5a31b9cf06388b0c52729682018ef4225607a498",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7ea56b281f87e75f970d718cca1234ac2ab4cc0a",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "88f2f1222cb34b3c943a7be54bfdccac0b225820",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "65a5f751b7a7a204f9ddd65629d7cb832adb873c",
+      "name": "localhost/SF Pro/Regular Italic",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "43710dfccde101bc08ddc991cf9856bca357661a",
+      "name": "localhost/SF Pro/Semibold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "e9d7552af961b5827650c996937ac283cb26a658",
+      "name": "localhost/SF Pro/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d2bd56487da0a89d9fbbf874296ec1368fc278fb",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "c54b327263d6de29812441b091c10338ef5a427d",
+      "name": "localhost/SF Pro/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "b5e6c0ba5d2715ffff184c88da96da5ce4bd54fa",
+      "name": "localhost/SF Pro/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "2e3fc0f792108f7dd91105322a41fba05dc43c6e",
+      "name": "localhost/Purple Heart 50%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "81efe9f7eb5cf50dcb4402cc3bff41ae8c27cc08",
+      "name": "localhost/Shocking Pink",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "20348c18fcc6398f76c38764fbadfde859e8663b",
+      "name": "localhost/Bastille",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "c5801646f8282c103fd8e6ce2a918c06f2a1d60e",
+      "name": "localhost/Bastille 80%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "fa869cd6d6748b07208fc8dc3c41593cb2fde74c",
+      "name": "localhost/Rum",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "714cf16591625e1d20b22565ca28c6ce27feb2f5",
+      "name": "localhost/Razzle Dazzle Rose",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "bf91d09d0a04133285a571a7d0363519ab7dcac7",
+      "name": "localhost/Athens Gray 80%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "98e8f425501f951468ec31a3b08d2645aa33ee0d",
+      "name": "localhost/Electric Violet",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "43b72e40b4ce471b1ed510a23c57f3a372cd4588",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "eb9a3f1b89f8ced9ed21d6f7151c8d300c06ed29",
+      "name": "localhost/Electric Violet 90%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "91d53a4185d1290cf1e32d12251c962965252644",
+      "name": "localhost/Mischka",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "bfac2c02227584c63f3b816faef5a42199fe7cde",
+      "name": "localhost/White 60%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "77db71ab0a95d205ffa9878bfc21cf8e6c5801f2",
+      "name": "localhost/Semantic/Heading 1",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ce08133df7425d53aa5f9b621d823d8de417b806",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "9053e6c9168f65a55a82a1c46cbd98730c5a9b77",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "78333d2875d0d926205dfe57fa86a341ccc4882e",
+      "name": "localhost/Semantic/Label",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "50a88a2617e2919219617c8495f1d7b46397c83d",
+      "name": "localhost/Flamingo",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "f18975a9b847061cd98b3d4e012b23aa09d6ce31",
+      "name": "localhost/Semantic/Label",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ec35d1afdfd3348d538581916aad072dd633e2c1",
+      "name": "localhost/Semantic/Input",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "53d54420d9b61fe6e7ecb5933e9486035a1c5c30",
+      "name": "localhost/Semantic/Label",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "6e07b9834dbc0be1b4376b77bf151093b32985d9",
+      "name": "localhost/Semantic/Input",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "e85e305d251c994c35b0864564527b9edf758d27",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "12eae2c60c1a90fc1577b61dfed68239b877e143",
+      "name": "localhost/Semantic/Label",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "02822c118305412c6c7d3bd6542ba647a76fd007",
+      "name": "localhost/Semantic/Input",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "54be61ab1323f27e8614e2cd024b906c5fec6875",
+      "name": "localhost/Rum 70%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "8d410032fa2a5b0b80fe23e6c7cfb64563e06aa5",
+      "name": "localhost/Semantic/Input",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "c909ffded635eda774bcd78f119709d8832bb9a9",
+      "name": "localhost/Semantic/Input",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "7ef6ed075c05b0a6da2c7d03781e7c798071f86c",
+      "name": "localhost/Semantic/Input",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "03bda63b958d1eba90a3af62398106d342554d77",
+      "name": "localhost/French Rose 50%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "e447810697f72df225b95df7c6c1a5fd8fa25e64",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "3b6228a1b16132f378b57d53e09da638380dbe53",
+      "name": "localhost/Salem",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "6b939822c316e2cd5d655bed27a27ce90a12312d",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "629f66292e35f10a6ed1ca63f11dfa7f7cceec98",
+      "name": "localhost/Inter/Italic",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ce8dab6a5807f2b9b99bd1fbc8dbd3631edcdfcf",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "c5e1bbbb2a085c92ae1f1a7dd084083b9a86db40",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "d8926db91af51c33c9c6abafe9ed17677ca1201e",
+      "name": "localhost/Cerise",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "4087763289e281aa1a6426d0594b82ee1239d229",
+      "name": "localhost/Inter/Italic",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "a2f36b1b89c3bb942bbf32bd5fb272282a4ac457",
+      "name": "localhost/Inter/Black",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ac4736dc909e3d5226427198db13b0e848d42982",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "4dcb4f7d8f9997093f35e37967e3e6bd4359e9fb",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "3d0ca166cad5680aee505d7df42a6e85b6b7a1ff",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "382213ab4db28e4b277e1d056cdebfb0ec7daa05",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "eac782925e2aea43ccc48458e22f0c2d8d46f3b9",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "0071022aab1c8780e8ac5f3e9bd5c79d43d29b94",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "10776fffb785f428d9b89e0e814faa62351223a4",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "78aaba3fbdc2f0f2533b21f01e060f623c2eb548",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "757479163b55df1996cf1a44b70b9cbf09ac9508",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "86051ee39fcfc9ddb215bab9b4f770f3af62bb16",
+      "name": "localhost/Semantic/Heading 4",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "c1d747b09138978d5842f15ed73bdb4a2d06e465",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "1fd9a364cf4b7c2c462acbcdbf5b75917645aef0",
+      "name": "localhost/Neon Carrot 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "daa5ff803dd1db8803eba18bd97fead731a0a234",
+      "name": "localhost/Heliotrope 20%",
+      "styleType": "FILL",
+      "description": ""
+    },
+    {
+      "key": "9cf5fda3b6fe017a036c38d2cf821a5ca0e8d0ea",
+      "name": "localhost/Semantic/Heading 1",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "8f135e7b91772943b8146128fa20fd72fe7fe383",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "ab92ade017f9a6a1d0fa98630482db13cb21e7a8",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "fd3eb68cf28c68cdfa95672e077d9771a0b40e86",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "4a91d0dd34ded8cb8f44c58958871be486955b23",
+      "name": "localhost/Inter/Medium",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "f3d832efc4631fa65593948e5ee0d8e7fd2736c8",
+      "name": "localhost/Semantic/Heading 2",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "df036dea146f7fb6aa2352a457b3a68bcc8a13e7",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "c2708423292cb74b0ec797486a1711905ff283e4",
+      "name": "localhost/Inter/Italic",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "a4ecbcad5effd24c361ddb61795eeb2431639840",
+      "name": "localhost/Inter/Regular",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "bfbb601e80aa2975d35d6c08383d19ae2e5455a8",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "f624ff9e558b7cd4c1445879e5e553f31fe84e84",
+      "name": "localhost/Inter/Bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "be2be5f7b54ce896d96f9a950ca83f3adc2eb742",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "e270daa2245e1077c5a65668ebbd0bf6b26a70e4",
+      "name": "localhost/Semantic/Link",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "cb54f64f933dcdaba6f609b0cc3c3381032f9510",
+      "name": "localhost/Semantic/Link",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "b411a5f254c6e4c8507b5579edf3ed36d1da92db",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    {
+      "key": "9c7fbd9f7489c9b7aec0e7cb1491da3fe6dbbbfd",
+      "name": "localhost/Semantic/Heading 3",
+      "styleType": "TEXT",
+      "description": ""
+    }
+  ],
+  "variables": null,
+  "recommendations": [
+    {
+      "type": "missing_categories",
+      "message": "Missing component categories: button, card, nav, layout, form, modal, feedback",
+      "action": "Create components following the naming convention: cmp / [category] / [name]"
+    },
+    {
+      "type": "missing_variables",
+      "message": "No variables found in Figma file",
+      "action": "Import design tokens using the Variables Importer plugin"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "title": "Dragvertising Component System",
+  "namingConvention": {
+    "figma": "cmp / [category] / [component-name]",
+    "react": "src/components/[category]/[ComponentName].tsx"
+  },
+  "categories": [
+    "button",
+    "card",
+    "nav",
+    "layout",
+    "form",
+    "modal",
+    "feedback"
+  ],
+  "components": {
+    "button": [
+      {
+        "figmaName": "cmp / button / primary",
+        "reactName": "PrimaryButton",
+        "path": "src/components/button/PrimaryButton.tsx",
+        "props": {
+          "size": "sm | md | lg",
+          "state": "default | hover | pressed | disabled"
+        },
+        "notes": "Primary action button with size and state variants"
+      },
+      {
+        "figmaName": "cmp / button / secondary",
+        "reactName": "SecondaryButton",
+        "path": "src/components/button/SecondaryButton.tsx",
+        "props": {
+          "size": "sm | md | lg"
+        },
+        "notes": "Secondary action button"
+      }
+    ],
+    "card": [
+      {
+        "figmaName": "cmp / card / talent-browse",
+        "reactName": "TalentBrowseCard",
+        "path": "src/components/card/TalentBrowseCard.tsx",
+        "props": {
+          "state": "default | hover | loading | empty"
+        },
+        "notes": "Browse card for talent profiles - includes avatar, name, pronouns, bio"
+      },
+      {
+        "figmaName": "cmp / card / dj-browse",
+        "reactName": "DJBrowseCard",
+        "path": "src/components/card/DJBrowseCard.tsx",
+        "props": {
+          "state": "default | hover | loading | empty"
+        },
+        "notes": "Browse card for DJ profiles - golden accent theme"
+      },
+      {
+        "figmaName": "cmp / card / show-preview",
+        "reactName": "ShowPreviewCard",
+        "path": "src/components/card/ShowPreviewCard.tsx",
+        "props": {
+          "variant": "default | featured"
+        },
+        "notes": "Show preview card for browse and listings"
+      },
+      {
+        "figmaName": "cmp / card / venue-preview",
+        "reactName": "VenuePreviewCard",
+        "path": "src/components/card/VenuePreviewCard.tsx",
+        "props": {
+          "variant": "default | compact"
+        },
+        "notes": "Venue preview card with location info"
+      }
+    ],
+    "nav": [
+      {
+        "figmaName": "cmp / nav / universe-switcher",
+        "reactName": "UniverseSwitcher",
+        "path": "src/components/nav/UniverseSwitcher.tsx",
+        "props": {
+          "placement": "header | sidebar"
+        },
+        "notes": "Universe switching dropdown - adapts to placement"
+      },
+      {
+        "figmaName": "cmp / nav / main-nav",
+        "reactName": "MainNav",
+        "path": "src/components/nav/MainNav.tsx",
+        "props": {
+          "variant": "public | authenticated"
+        },
+        "notes": "Main navigation bar"
+      },
+      {
+        "figmaName": "cmp / nav / sidebar",
+        "reactName": "Sidebar",
+        "path": "src/components/nav/Sidebar.tsx",
+        "props": {
+          "collapsed": "boolean"
+        },
+        "notes": "Dashboard sidebar navigation"
+      }
+    ],
+    "layout": [
+      {
+        "figmaName": "cmp / layout / dashboard-shell",
+        "reactName": "DashboardShell",
+        "path": "src/components/layout/DashboardShell.tsx",
+        "props": {
+          "universe": "talent | dj | producer | fan"
+        },
+        "notes": "Main dashboard layout shell - universe-aware"
+      },
+      {
+        "figmaName": "cmp / layout / page-header",
+        "reactName": "PageHeader",
+        "path": "src/components/layout/PageHeader.tsx",
+        "props": {
+          "showBreadcrumbs": "boolean"
+        },
+        "notes": "Page header with title and optional breadcrumbs"
+      }
+    ],
+    "form": [
+      {
+        "figmaName": "cmp / form / input-text",
+        "reactName": "InputText",
+        "path": "src/components/form/InputText.tsx",
+        "props": {
+          "state": "default | focus | error | disabled"
+        },
+        "notes": "Text input field"
+      },
+      {
+        "figmaName": "cmp / form / select",
+        "reactName": "Select",
+        "path": "src/components/form/Select.tsx",
+        "props": {
+          "state": "default | open | disabled"
+        },
+        "notes": "Select dropdown"
+      }
+    ],
+    "modal": [
+      {
+        "figmaName": "cmp / modal / dialog",
+        "reactName": "Dialog",
+        "path": "src/components/modal/Dialog.tsx",
+        "props": {
+          "size": "sm | md | lg | xl"
+        },
+        "notes": "Modal dialog - uses shadcn/ui Dialog primitive"
+      }
+    ],
+    "feedback": [
+      {
+        "figmaName": "cmp / feedback / toast",
+        "reactName": "Toast",
+        "path": "src/components/feedback/Toast.tsx",
+        "props": {
+          "variant": "default | success | error | warning"
+        },
+        "notes": "Toast notification - uses sonner"
+      }
+    ]
+  }
+}

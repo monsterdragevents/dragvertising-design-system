@@ -1,0 +1,422 @@
+{
+  "$schema": "./component-mapping-schema.json",
+  "version": "2.0.0",
+  "description": "1:1 mapping between Figma components and React components using consistent naming",
+  "namingConvention": {
+    "figma": "cmp / [category] / [component-name]",
+    "react": "src/components/[category]/[ComponentName].tsx"
+  },
+  "mappings": [
+    {
+      "figmaComponent": "cmp / button / primary",
+      "reactComponent": "src/components/button/PrimaryButton.tsx",
+      "componentName": "PrimaryButton",
+      "props": {
+        "size": "sm | md | lg",
+        "state": "default | hover | pressed | disabled"
+      },
+      "notes": "Primary action button with size and state variants"
+    },
+    {
+      "figmaComponent": "cmp / button / secondary",
+      "reactComponent": "src/components/button/SecondaryButton.tsx",
+      "componentName": "SecondaryButton",
+      "props": {
+        "size": "sm | md | lg"
+      },
+      "notes": "Secondary action button"
+    },
+    {
+      "figmaComponent": "cmp / card / talent-browse",
+      "reactComponent": "src/components/card/TalentBrowseCard.tsx",
+      "componentName": "TalentBrowseCard",
+      "props": {
+        "state": "default | hover | loading | empty"
+      },
+      "notes": "Browse card for talent profiles - includes avatar, name, pronouns, bio"
+    },
+    {
+      "figmaComponent": "cmp / card / dj-browse",
+      "reactComponent": "src/components/card/DJBrowseCard.tsx",
+      "componentName": "DJBrowseCard",
+      "props": {
+        "state": "default | hover | loading | empty"
+      },
+      "notes": "Browse card for DJ profiles - golden accent theme"
+    },
+    {
+      "figmaComponent": "cmp / card / show-preview",
+      "reactComponent": "src/components/card/ShowPreviewCard.tsx",
+      "componentName": "ShowPreviewCard",
+      "props": {
+        "variant": "default | featured"
+      },
+      "notes": "Show preview card for browse and listings"
+    },
+    {
+      "figmaComponent": "cmp / card / venue-preview",
+      "reactComponent": "src/components/card/VenuePreviewCard.tsx",
+      "componentName": "VenuePreviewCard",
+      "props": {
+        "variant": "default | compact"
+      },
+      "notes": "Venue preview card with location info"
+    },
+    {
+      "figmaComponent": "cmp / nav / universe-switcher",
+      "reactComponent": "src/components/nav/UniverseSwitcher.tsx",
+      "componentName": "UniverseSwitcher",
+      "props": {
+        "placement": "header | sidebar"
+      },
+      "notes": "Universe switching dropdown - adapts to placement"
+    },
+    {
+      "figmaComponent": "cmp / nav / main-nav",
+      "reactComponent": "src/components/nav/MainNav.tsx",
+      "componentName": "MainNav",
+      "props": {
+        "variant": "public | authenticated"
+      },
+      "notes": "Main navigation bar"
+    },
+    {
+      "figmaComponent": "cmp / nav / sidebar",
+      "reactComponent": "src/components/nav/Sidebar.tsx",
+      "componentName": "Sidebar",
+      "props": {
+        "collapsed": "boolean"
+      },
+      "notes": "Dashboard sidebar navigation"
+    },
+    {
+      "figmaComponent": "cmp / layout / dashboard-shell",
+      "reactComponent": "src/components/layout/DashboardShell.tsx",
+      "componentName": "DashboardShell",
+      "props": {
+        "universe": "talent | dj | producer | fan"
+      },
+      "notes": "Main dashboard layout shell - universe-aware"
+    },
+    {
+      "figmaComponent": "cmp / layout / page-header",
+      "reactComponent": "src/components/layout/PageHeader.tsx",
+      "componentName": "PageHeader",
+      "props": {
+        "showBreadcrumbs": "boolean"
+      },
+      "notes": "Page header with title and optional breadcrumbs"
+    },
+    {
+      "figmaComponent": "cmp / form / input-text",
+      "reactComponent": "src/components/form/InputText.tsx",
+      "componentName": "InputText",
+      "props": {
+        "state": "default | focus | error | disabled"
+      },
+      "notes": "Text input field"
+    },
+    {
+      "figmaComponent": "cmp / form / select",
+      "reactComponent": "src/components/form/Select.tsx",
+      "componentName": "Select",
+      "props": {
+        "state": "default | open | disabled"
+      },
+      "notes": "Select dropdown"
+    },
+    {
+      "figmaComponent": "cmp / modal / dialog",
+      "reactComponent": "src/components/modal/Dialog.tsx",
+      "componentName": "Dialog",
+      "props": {
+        "size": "sm | md | lg | xl"
+      },
+      "notes": "Modal dialog - uses shadcn/ui Dialog primitive"
+    },
+    {
+      "figmaComponent": "cmp / feedback / toast",
+      "reactComponent": "src/components/feedback/Toast.tsx",
+      "componentName": "Toast",
+      "props": {
+        "variant": "default | success | error | warning"
+      },
+      "notes": "Toast notification - uses sonner"
+    }
+  ],
+  "categories": [
+    "button",
+    "card",
+    "nav",
+    "layout",
+    "form",
+    "modal",
+    "feedback"
+  ],
+  "variantMapping": {
+    "description": "Figma variants map directly to React props",
+    "examples": [
+      {
+        "figmaVariant": "state=default",
+        "reactProp": "state=\"default\""
+      },
+      {
+        "figmaVariant": "size=md",
+        "reactProp": "size=\"md\""
+      },
+      {
+        "figmaVariant": "variant=primary",
+        "reactProp": "variant=\"primary\""
+      }
+    ]
+  },
+  "legacyMappings": [
+    {
+      "figmaComponent": "Button/Secondary",
+      "reactComponent": "src/ui/primitives/button.tsx",
+      "componentName": "Button",
+      "props": {
+        "variant": "secondary"
+      },
+      "notes": "Secondary action button"
+    },
+    {
+      "figmaComponent": "Button/Destructive",
+      "reactComponent": "src/ui/primitives/button.tsx",
+      "componentName": "Button",
+      "props": {
+        "variant": "destructive"
+      },
+      "notes": "Destructive action button (delete, remove)"
+    },
+    {
+      "figmaComponent": "Button/Outline",
+      "reactComponent": "src/ui/primitives/button.tsx",
+      "componentName": "Button",
+      "props": {
+        "variant": "outline"
+      },
+      "notes": "Outline button"
+    },
+    {
+      "figmaComponent": "Button/Ghost",
+      "reactComponent": "src/ui/primitives/button.tsx",
+      "componentName": "Button",
+      "props": {
+        "variant": "ghost"
+      },
+      "notes": "Ghost button (minimal)"
+    },
+    {
+      "figmaComponent": "Input/Text",
+      "reactComponent": "src/ui/primitives/input.tsx",
+      "componentName": "Input",
+      "props": {
+        "type": "text"
+      },
+      "notes": "Text input field"
+    },
+    {
+      "figmaComponent": "Input/Email",
+      "reactComponent": "src/ui/primitives/input.tsx",
+      "componentName": "Input",
+      "props": {
+        "type": "email"
+      },
+      "notes": "Email input field"
+    },
+    {
+      "figmaComponent": "Input/Password",
+      "reactComponent": "src/ui/primitives/input.tsx",
+      "componentName": "Input",
+      "props": {
+        "type": "password"
+      },
+      "notes": "Password input field"
+    },
+    {
+      "figmaComponent": "Card/Default",
+      "reactComponent": "src/ui/primitives/card.tsx",
+      "componentName": "Card",
+      "props": {},
+      "notes": "Basic card container"
+    },
+    {
+      "figmaComponent": "Card/Header",
+      "reactComponent": "src/ui/primitives/card.tsx",
+      "componentName": "CardHeader",
+      "props": {},
+      "notes": "Card header section"
+    },
+    {
+      "figmaComponent": "Card/Title",
+      "reactComponent": "src/ui/primitives/card.tsx",
+      "componentName": "CardTitle",
+      "props": {},
+      "notes": "Card title"
+    },
+    {
+      "figmaComponent": "Card/Description",
+      "reactComponent": "src/ui/primitives/card.tsx",
+      "componentName": "CardDescription",
+      "props": {},
+      "notes": "Card description"
+    },
+    {
+      "figmaComponent": "Card/Content",
+      "reactComponent": "src/ui/primitives/card.tsx",
+      "componentName": "CardContent",
+      "props": {},
+      "notes": "Card content section"
+    },
+    {
+      "figmaComponent": "Card/Footer",
+      "reactComponent": "src/ui/primitives/card.tsx",
+      "componentName": "CardFooter",
+      "props": {},
+      "notes": "Card footer section"
+    },
+    {
+      "figmaComponent": "Badge/Default",
+      "reactComponent": "src/ui/primitives/badge.tsx",
+      "componentName": "Badge",
+      "props": {
+        "variant": "default"
+      },
+      "notes": "Default badge"
+    },
+    {
+      "figmaComponent": "Badge/Secondary",
+      "reactComponent": "src/ui/primitives/badge.tsx",
+      "componentName": "Badge",
+      "props": {
+        "variant": "secondary"
+      },
+      "notes": "Secondary badge"
+    },
+    {
+      "figmaComponent": "Badge/Destructive",
+      "reactComponent": "src/ui/primitives/badge.tsx",
+      "componentName": "Badge",
+      "props": {
+        "variant": "destructive"
+      },
+      "notes": "Destructive badge"
+    },
+    {
+      "figmaComponent": "Badge/Outline",
+      "reactComponent": "src/ui/primitives/badge.tsx",
+      "componentName": "Badge",
+      "props": {
+        "variant": "outline"
+      },
+      "notes": "Outline badge"
+    },
+    {
+      "figmaComponent": "Dialog/Root",
+      "reactComponent": "src/ui/primitives/dialog.tsx",
+      "componentName": "Dialog",
+      "props": {},
+      "notes": "Dialog root component"
+    },
+    {
+      "figmaComponent": "Dialog/Content",
+      "reactComponent": "src/ui/primitives/dialog.tsx",
+      "componentName": "DialogContent",
+      "props": {},
+      "notes": "Dialog content"
+    },
+    {
+      "figmaComponent": "Dialog/Header",
+      "reactComponent": "src/ui/primitives/dialog.tsx",
+      "componentName": "DialogHeader",
+      "props": {},
+      "notes": "Dialog header"
+    },
+    {
+      "figmaComponent": "Dialog/Title",
+      "reactComponent": "src/ui/primitives/dialog.tsx",
+      "componentName": "DialogTitle",
+      "props": {},
+      "notes": "Dialog title"
+    },
+    {
+      "figmaComponent": "Dialog/Description",
+      "reactComponent": "src/ui/primitives/dialog.tsx",
+      "componentName": "DialogDescription",
+      "props": {},
+      "notes": "Dialog description"
+    },
+    {
+      "figmaComponent": "Table/Root",
+      "reactComponent": "src/ui/primitives/table.tsx",
+      "componentName": "Table",
+      "props": {},
+      "notes": "Table root component"
+    },
+    {
+      "figmaComponent": "Table/Header",
+      "reactComponent": "src/ui/primitives/table.tsx",
+      "componentName": "TableHeader",
+      "props": {},
+      "notes": "Table header"
+    },
+    {
+      "figmaComponent": "Table/Body",
+      "reactComponent": "src/ui/primitives/table.tsx",
+      "componentName": "TableBody",
+      "props": {},
+      "notes": "Table body"
+    },
+    {
+      "figmaComponent": "Table/Row",
+      "reactComponent": "src/ui/primitives/table.tsx",
+      "componentName": "TableRow",
+      "props": {},
+      "notes": "Table row"
+    },
+    {
+      "figmaComponent": "Table/Head",
+      "reactComponent": "src/ui/primitives/table.tsx",
+      "componentName": "TableHead",
+      "props": {},
+      "notes": "Table header cell"
+    },
+    {
+      "figmaComponent": "Table/Cell",
+      "reactComponent": "src/ui/primitives/table.tsx",
+      "componentName": "TableCell",
+      "props": {},
+      "notes": "Table data cell"
+    }
+  ],
+  "universeSpecific": [
+    {
+      "figmaComponent": "Universe/Talent/Card",
+      "reactComponent": "src/components/talent/TalentCard.tsx",
+      "componentName": "TalentCard",
+      "props": {
+        "variant": "default"
+      },
+      "notes": "Talent-specific card with pink accent"
+    },
+    {
+      "figmaComponent": "Universe/DJ/Card",
+      "reactComponent": "src/components/dj/DJCard.tsx",
+      "componentName": "DJCard",
+      "props": {
+        "variant": "default"
+      },
+      "notes": "DJ-specific card with golden accent"
+    },
+    {
+      "figmaComponent": "Universe/Producer/Card",
+      "reactComponent": "src/components/producer/ProducerCard.tsx",
+      "componentName": "ProducerCard",
+      "props": {
+        "variant": "default"
+      },
+      "notes": "Producer-specific card with orange accent"
+    }
+  ]
+}

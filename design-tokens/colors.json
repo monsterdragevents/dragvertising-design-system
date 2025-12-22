@@ -1,0 +1,317 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "colors": {
+    "brand": {
+      "pink": {
+        "$type": "color",
+        "$value": "#FD0290",
+        "$description": "Dragvertising signature pink - primary brand color"
+      },
+      "golden": {
+        "$type": "color",
+        "$value": "#FFA726",
+        "$description": "Dragvertising-inspired golden yellow accent"
+      },
+      "warm-orange": {
+        "$type": "color",
+        "$value": "#FF6B35",
+        "$description": "Warm orange for gradients and accents"
+      }
+    },
+    "semantic": {
+      "light": {
+        "background": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 98%)",
+          "$description": "Light mode background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 10%)",
+          "$description": "Light mode foreground text"
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 50%)",
+          "$description": "Primary brand purple"
+        },
+        "primary-foreground": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)",
+          "$description": "Text on primary"
+        },
+        "primary-glow": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 65%)",
+          "$description": "Primary glow effect"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "hsl(45, 100%, 55%)",
+          "$description": "Secondary golden yellow"
+        },
+        "secondary-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 10%)",
+          "$description": "Text on secondary"
+        },
+        "secondary-glow": {
+          "$type": "color",
+          "$value": "hsl(45, 100%, 70%)",
+          "$description": "Secondary glow effect"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 95%)",
+          "$description": "Muted background"
+        },
+        "muted-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 35%)",
+          "$description": "Muted text"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 96%)",
+          "$description": "Accent background"
+        },
+        "accent-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 10%)",
+          "$description": "Accent text"
+        },
+        "destructive": {
+          "$type": "color",
+          "$value": "hsl(0, 84.2%, 60.2%)",
+          "$description": "Destructive/error color"
+        },
+        "destructive-foreground": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)",
+          "$description": "Text on destructive"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "hsl(280, 15%, 88%)",
+          "$description": "Border color"
+        },
+        "input": {
+          "$type": "color",
+          "$value": "hsl(280, 15%, 88%)",
+          "$description": "Input border color"
+        },
+        "ring": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 50%)",
+          "$description": "Focus ring color"
+        },
+        "card": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)",
+          "$description": "Card background"
+        },
+        "card-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 10%)",
+          "$description": "Card text"
+        },
+        "popover": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)",
+          "$description": "Popover background"
+        },
+        "popover-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 10%)",
+          "$description": "Popover text"
+        }
+      },
+      "dark": {
+        "background": {
+          "$type": "color",
+          "$value": "hsl(280, 30%, 8%)",
+          "$description": "Dark mode background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 95%)",
+          "$description": "Dark mode foreground text"
+        },
+        "primary": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 60%)",
+          "$description": "Primary brand purple (lighter for dark mode)"
+        },
+        "primary-foreground": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)",
+          "$description": "Text on primary"
+        },
+        "primary-glow": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 70%)",
+          "$description": "Primary glow effect (stronger for dark)"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "hsl(45, 100%, 60%)",
+          "$description": "Secondary golden yellow (brighter for dark)"
+        },
+        "secondary-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 10%)",
+          "$description": "Text on secondary"
+        },
+        "secondary-glow": {
+          "$type": "color",
+          "$value": "hsl(45, 100%, 75%)",
+          "$description": "Secondary glow effect (stronger for dark)"
+        },
+        "muted": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 18%)",
+          "$description": "Muted background"
+        },
+        "muted-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 75%)",
+          "$description": "Muted text"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 22%)",
+          "$description": "Accent background"
+        },
+        "accent-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 95%)",
+          "$description": "Accent text"
+        },
+        "destructive": {
+          "$type": "color",
+          "$value": "hsl(0, 84.2%, 60.2%)",
+          "$description": "Destructive/error color"
+        },
+        "destructive-foreground": {
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)",
+          "$description": "Text on destructive"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 22%)",
+          "$description": "Border color"
+        },
+        "input": {
+          "$type": "color",
+          "$value": "hsl(280, 20%, 22%)",
+          "$description": "Input border color"
+        },
+        "ring": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 60%)",
+          "$description": "Focus ring color"
+        },
+        "card": {
+          "$type": "color",
+          "$value": "hsl(280, 25%, 12%)",
+          "$description": "Card background"
+        },
+        "card-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 95%)",
+          "$description": "Card text"
+        },
+        "popover": {
+          "$type": "color",
+          "$value": "hsl(280, 25%, 12%)",
+          "$description": "Popover background"
+        },
+        "popover-foreground": {
+          "$type": "color",
+          "$value": "hsl(280, 10%, 95%)",
+          "$description": "Popover text"
+        }
+      }
+    },
+    "universe": {
+      "talent": {
+        "accent": {
+          "$type": "color",
+          "$value": "#FD0290",
+          "$description": "Talent universe accent (brand pink)"
+        }
+      },
+      "dj": {
+        "accent": {
+          "$type": "color",
+          "$value": "#FFA726",
+          "$description": "DJ universe accent (golden)"
+        }
+      },
+      "producer": {
+        "accent": {
+          "$type": "color",
+          "$value": "#FF6B35",
+          "$description": "Producer universe accent (warm orange)"
+        }
+      },
+      "production_co": {
+        "accent": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 50%)",
+          "$description": "Production Co universe accent (primary purple)"
+        }
+      },
+      "fan": {
+        "accent": {
+          "$type": "color",
+          "$value": "hsl(45, 100%, 55%)",
+          "$description": "Fan universe accent (secondary golden)"
+        }
+      },
+      "showrunner": {
+        "accent": {
+          "$type": "color",
+          "$value": "#FF6B35",
+          "$description": "Showrunner universe accent (warm orange)"
+        }
+      },
+      "venue_owner": {
+        "accent": {
+          "$type": "color",
+          "$value": "hsl(280, 85%, 50%)",
+          "$description": "Venue Owner universe accent (primary purple)"
+        }
+      }
+    },
+    "gradients": {
+      "primary": {
+        "$type": "gradient",
+        "$value": "linear-gradient(135deg, hsl(280, 85%, 50%), #FD0290)",
+        "$description": "Primary brand gradient (purple to pink)"
+      },
+      "secondary": {
+        "$type": "gradient",
+        "$value": "linear-gradient(135deg, hsl(45, 100%, 55%), hsl(35, 100%, 50%))",
+        "$description": "Secondary gradient (golden yellow to orange)"
+      },
+      "hero": {
+        "$type": "gradient",
+        "$value": "linear-gradient(135deg, hsl(280, 85%, 50%) 0%, #FD0290 50%, hsl(45, 100%, 55%) 100%)",
+        "$description": "Hero gradient (purple to pink to golden)"
+      },
+      "dragvertising": {
+        "$type": "gradient",
+        "$value": "linear-gradient(135deg, hsl(38, 100%, 57%), #FD0290, hsl(280, 85%, 50%))",
+        "$description": "Dragvertising-inspired gradient"
+      },
+      "golden": {
+        "$type": "gradient",
+        "$value": "linear-gradient(135deg, hsl(38, 100%, 57%), hsl(16, 100%, 60%))",
+        "$description": "Golden gradient"
+      }
+    }
+  }
+}
+
