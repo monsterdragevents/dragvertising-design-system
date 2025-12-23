@@ -89,6 +89,7 @@ mcp_TalkToFigma_set_fill_color({
    ```
    YOUR_CODE_TO_DESIGN_API_KEY_HERE
    ```
+   > **Note**: Get your API key from [code.to.design](https://code.to.design) dashboard
 
 2. **Environment** (.env.local):
    ```bash
@@ -183,6 +184,7 @@ export const PrimaryButton = ({
    # Same API key as code.to.design
    HTML_TO_DESIGN_API_KEY=YOUR_CODE_TO_DESIGN_API_KEY_HERE
    ```
+   > **Note**: Use the same API key from code.to.design
 
 ### Usage:
 
