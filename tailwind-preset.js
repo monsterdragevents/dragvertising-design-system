@@ -4,7 +4,7 @@
  * This file is auto-generated from design tokens.
  * DO NOT EDIT MANUALLY - run "npm run build" in design-system repo to regenerate.
  * 
- * Generated: 2025-12-23T13:00:58.082Z
+ * Generated: 2025-12-23T15:59:33.062Z
  */
 
 const preset = {
