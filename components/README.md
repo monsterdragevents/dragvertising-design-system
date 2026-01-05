@@ -12,32 +12,42 @@ Static component examples and documentation snippets:
 
 ## Current Status
 
-⚠️ **This folder is currently empty.**
+✅ **Component examples are available for:**
+- Forms: Combobox examples
+- Layouts: Grid List examples
+- Marketing: Team Section, Newsletter Section, Bento Grid, Feature Section, Flyout Menu, Banner, CTA Section examples
+- Ecommerce: Product Overview, Product Quickview, Incentives, Reviews examples
 
 Live component showcases exist in:
 - `src/components/design/` - Design system components (DesignPageLayout, modals, cards)
 - `src/pages/design/` - Interactive component showcases
+- `/design/tailwind-ui-blocks` - **NEW**: Comprehensive Tailwind UI Blocks showcase
 
-## Recommended Structure
+## Current Structure
 
 ```
 design-system/components/
 ├── buttons/
-│   ├── basic-button.tsx          # Basic button examples
-│   ├── gradient-button.tsx       # Gradient button examples
-│   └── README.md                 # Button documentation
+│   └── basic-button-examples.tsx
 ├── cards/
-│   ├── universe-card.tsx         # Universe card examples
-│   ├── performer-card.tsx        # Performer card examples
-│   └── README.md                 # Card documentation
+│   └── talent-card-examples.tsx
 ├── forms/
-│   ├── input-examples.tsx        # Input field examples
-│   ├── form-layouts.tsx          # Form layout examples
-│   └── README.md                 # Form documentation
-└── patterns/
-    ├── navigation-patterns.tsx   # Navigation examples
-    ├── data-display.tsx          # Data display examples
-    └── README.md                 # Pattern documentation
+│   └── combobox-examples.tsx     # NEW: Combobox component examples
+├── layouts/
+│   └── grid-list-examples.tsx    # NEW: Grid List component examples
+├── marketing/
+│   ├── team-section-examples.tsx      # NEW: Team Section examples
+│   ├── newsletter-section-examples.tsx # NEW: Newsletter Section examples
+│   ├── bento-grid-examples.tsx        # NEW: Bento Grid examples
+│   ├── feature-section-examples.tsx   # NEW: Feature Section examples
+│   ├── flyout-menu-examples.tsx       # NEW: Flyout Menu examples
+│   ├── banner-examples.tsx            # NEW: Banner examples
+│   └── cta-section-examples.tsx       # NEW: CTA Section examples
+└── ecommerce/
+    ├── product-overview-examples.tsx   # NEW: Product Overview examples
+    ├── product-quickview-examples.tsx  # NEW: Product Quickview examples
+    ├── incentives-examples.tsx         # NEW: Incentives examples
+    └── reviews-examples.tsx            # NEW: Reviews examples
 ```
 
 ## What to Include
@@ -81,6 +91,7 @@ Copyable code examples:
 - `/design/data-display` - Data display showcase
 - `/design/lineup-cards` - Lineup card showcase
 - `/design/browse-shop-blog-cards` - Card showcase
+- `/design/tailwind-ui-blocks` - **NEW**: Tailwind CSS UI Blocks showcase (Comboboxes, Grid Lists, Team Sections, Product Overviews, Reviews, Incentives, Newsletter Sections, Bento Grids, Feature Sections, Flyout Menus, Banners, CTA Sections)
 
 ## Usage
 
@@ -118,8 +129,38 @@ Visit live showcases at `/design/*` routes for interactive examples.
 
 ---
 
-**Last Updated**: December 2025  
-**Status**: Empty - Ready for population  
+## New Tailwind UI Blocks Components
+
+All new components follow Tailwind CSS UI Blocks patterns and are available in:
+- **Primitives**: `src/ui/primitives/` in DragvertisingApp
+- **Examples**: `components/` folders in this design-system repo
+- **Showcase**: `/design/tailwind-ui-blocks` route
+
+### Forms
+- **Combobox** - Autocomplete input with dropdown (`forms/combobox-examples.tsx`)
+
+### Layouts
+- **Grid List** - Responsive grid layout component (`layouts/grid-list-examples.tsx`)
+
+### Marketing
+- **Team Section** - Team member display (`marketing/team-section-examples.tsx`)
+- **Newsletter Section** - Email signup forms (`marketing/newsletter-section-examples.tsx`)
+- **Bento Grid** - Visually engaging feature grid (`marketing/bento-grid-examples.tsx`)
+- **Feature Section** - Feature highlights (`marketing/feature-section-examples.tsx`)
+- **Flyout Menu** - Navigation menus with flyouts (`marketing/flyout-menu-examples.tsx`)
+- **Banner** - Announcement banners (`marketing/banner-examples.tsx`)
+- **CTA Section** - Call-to-action sections (`marketing/cta-section-examples.tsx`)
+
+### Ecommerce
+- **Product Overview** - Product page component (`ecommerce/product-overview-examples.tsx`)
+- **Product Quickview** - Quick product preview (`ecommerce/product-quickview-examples.tsx`)
+- **Incentives** - Promotional offers (`ecommerce/incentives-examples.tsx`)
+- **Reviews** - Product reviews and ratings (`ecommerce/reviews-examples.tsx`)
+
+---
+
+**Last Updated**: January 2025  
+**Status**: Active - Examples available for all new Tailwind UI Blocks components  
 **Alternative**: Live component showcases at `/design/*` routes
 
 
